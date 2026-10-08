@@ -159,7 +159,7 @@ dates.append(date_time)
 # 6. 데이터 수집 과정에서 발생한 문제
 
 ## ⚠️ Instagram 자동화 탐지
-<img width="500" alt="errormessage" src="https://github.com/user-attachments/assets/d1aa0032-6e19-4115-be4e-96a762725ace" />
+<img width="500" alt="errormessage" src="https://github.com/ulsankhr/Instagram-Insights-Analysis/blob/main/img/errormessage.png" />
 
 데이터 수집 과정에서 인스타그램의 시간대 데이터를 크롤링하던 중 **자동화된 활동으로 의심되는 경고가 발생**했습니다.
 
@@ -240,7 +240,7 @@ insight['시간'] = insight['날짜_시간'].dt.time
 ---
 
 ## 8.2 시간대 보정
-<img width="300" alt="time1" src="https://github.com/user-attachments/assets/d754eb10-4fdb-43cc-87f9-c15fa161269e" />
+<img width="300" alt="time1" src="https://github.com/ulsankhr/Instagram-Insights-Analysis/blob/main/img/time1.png" />
 
 개발자 도구를 통해 확인한 시간 정보가 한국 시간보다 **9시간 빠르게 기록되는 문제**가 있었습니다.
 
@@ -391,7 +391,7 @@ likes_by_day = (
 이를 선 그래프로 시각화하여 요일별 성과 차이를 확인했습니다.
 
 ### 분석 결과
-<img width="1000" alt="result" src="https://github.com/user-attachments/assets/7edd2fae-2bef-4c0a-bcf5-73a294d6b122" />
+<img width="1000" alt="result" src="https://github.com/ulsankhr/Instagram-Insights-Analysis/blob/main/img/result.png" />
 
 **일요일의 평균 좋아요 수가 가장 높은 것으로 나타났습니다.**
 
@@ -497,7 +497,7 @@ sns.heatmap(
     linewidths=.5
 )
 ```
-<img width="1000" alt="heatmap" src="https://github.com/user-attachments/assets/16479d1c-e139-47d7-80fe-90e0c07c5db1" />
+<img width="1000" alt="heatmap" src="https://github.com/ulsankhr/Instagram-Insights-Analysis/blob/main/img/heatmap.png" />
 
 Heatmap을 통해 요일과 시간대가 결합된 상태에서 **어떤 구간의 평균 성과가 높은지 한눈에 비교**할 수 있도록 했습니다.
 
@@ -522,7 +522,7 @@ Heatmap을 통해 요일과 시간대가 결합된 상태에서 **어떤 구간�
 ---
 
 ## 📌 종합 결과
-<img width="1000" alt="heatmap2" src="https://github.com/user-attachments/assets/bb6605d4-c9a4-4770-8086-1730ef69e97f" />
+<img width="1000" alt="heatmap2" src="https://github.com/ulsankhr/Instagram-Insights-Analysis/blob/main/img/heatmap2.png" />
 
 좋아요와 도달이라는 두 가지 성과 지표를 함께 고려했을 때,
 
